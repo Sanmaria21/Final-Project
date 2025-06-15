@@ -1,2 +1,2 @@
-# JUNE-16
+# Final-Project
 This project focuses on predicting sleeping disorders using machine learning techniques applied to lifestyle and health-related data. By analyzing various factors such as sleep duration, blood pressure, stress levels, physical activity, and demographic information, the model aims to identify patterns that indicate the presence of sleep disorders like insomnia and sleep apnea. The dataset undergoes thorough preprocessing, feature selection, and scaling to improve model accuracy. This work demonstrates how data-driven approaches can assist in early detection and better understanding of sleep health, potentially supporting medical diagnosis and personalized lifestyle interventions.
