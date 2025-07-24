@@ -32,6 +32,8 @@ The heatmap identifies and removes highly correlated features(|r|>0.9).
 
 Final features selected after considering both feature selection methods : Disystolic, Sleep Duration, Quality of Sleep, Heart Rate, Age, Sleep Disorder, Systolic. 
 
+MODEL 1- LOGISTIC REGRESSION
+
 HYPERTUNING METHOD : GRIDSEARCH 
 Grid Search for parameters like eta0, alpha,and penalty is done to find the best parameter value. 
 Training the model with early stopping is done and model is stabilize. The plotting of loss over epoch and accuracy over epoch is also found. 
@@ -48,4 +50,48 @@ Displays a confusion matrix heatmap.
 
 Multi-Class ROC Curve:
 Uses label_binarize to handle multi-class ROC computation.
-Plots ROC curves and calculates AUC for each class.Displays an overall AUC score using roc_auc_score with multi_class='ovr'.
+Plots ROC curves and calculates AUC for each class.
+Displays an overall AUC score using roc_auc_score with multi_class
+
+MODEL 2 - RANDOM FOREST
+Imported necessary libraries for the model.
+Grid Search for parameters like n_estimators,max_depth,min_samples_split,min_samples_leaf and bootstrap is done to find the best parameter value. 
+Training the model with early stopping is done and model is stabilize.
+
+PLOTTING:
+Line plots:
+Plots the Random Forest Log Loss vs. Number of Estimators.
+Plots the Random Forest Accuracy vs. Number of Estimators.
+
+Prediction and Metrics:
+Makes predictions on the test set.
+Prints a classification report (precision, recall, F1-score).
+Displays a confusion matrix heatmap.
+
+
+Multi-Class ROC Curve:
+Uses label_binarize to handle multi-class ROC computation.
+Plots ROC curves and calculates AUC for each class.
+Displays an overall AUC score
+
+MODEL 3- SVM
+Imported necessary libraries for the model.
+Grid Search for parameters like eta0, alpha,and penalty is done to find the best parameter value.
+Training the model with early stopping is done and model is stabilize.
+
+PLOTTING:
+Line plots:
+Plots the training and testing loss over epochs.
+Plots the training and testing accuracy over epochs.
+
+Prediction and Metrics:
+Makes predictions on the test set.
+Prints a classification report (precision, recall, F1-score).
+Displays a confusion matrix heatmap.
+
+
+Multi-Class ROC Curve:
+Uses label_binarize to handle multi-class ROC computation.
+Plots ROC curves and calculates AUC for each class.
+Displays an overall AUC score
+
