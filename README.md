@@ -1,5 +1,7 @@
 # Final-Project
 This project focuses on predicting sleeping disorders using machine learning techniques applied to lifestyle and health-related data. By analyzing various factors such as sleep duration, blood pressure, stress levels, physical activity, and demographic information, the model aims to identify patterns that indicate the presence of sleep disorders like insomnia and sleep apnea. The dataset undergoes thorough preprocessing, feature selection, and scaling to improve model accuracy. This work demonstrates how data-driven approaches can assist in early detection and better understanding of sleep health, potentially supporting medical diagnosis and personalized lifestyle interventions.
+
+File Name : JUNE 16 - contains EDA and feature selection methods
 CODE DETAILS:
 Necessary libraries are imported , dataset was loaded successfully. 
 Preprocessing done: Missing values handling, removing duplicates, blood pressure split, label encoding, feature-target split, and feature scaling. 
@@ -32,6 +34,8 @@ The heatmap identifies and removes highly correlated features(|r|>0.9).
 
 Final features selected after considering both feature selection methods : Disystolic, Sleep Duration, Quality of Sleep, Heart Rate, Age, Sleep Disorder, Systolic. 
 
+File Name - MODEL1- contains model 1 - logistic regression
+ 
 MODEL 1- LOGISTIC REGRESSION
 
 HYPERTUNING METHOD : GRIDSEARCH 
@@ -52,6 +56,9 @@ Multi-Class ROC Curve:
 Uses label_binarize to handle multi-class ROC computation.
 Plots ROC curves and calculates AUC for each class.
 Displays an overall AUC score using roc_auc_score with multi_class
+
+File Name: ALL_3_MODELS-contains all 3 models for the project
+
 
 MODEL 2 - RANDOM FOREST
 Imported necessary libraries for the model.
