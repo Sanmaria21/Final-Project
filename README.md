@@ -52,9 +52,8 @@ Makes predictions on the test set.
 Prints a classification report (precision, recall, F1-score).
 Displays a confusion matrix heatmap.
 
-Multi-Class ROC Curve:
+AUC
 Uses label_binarize to handle multi-class ROC computation.
-Plots ROC curves and calculates AUC for each class.
 Displays an overall AUC score using roc_auc_score with multi_class
 
 File Name: ALL_3_MODELS-contains all 3 models for the project
@@ -76,10 +75,9 @@ Prints a classification report (precision, recall, F1-score).
 Displays a confusion matrix heatmap.
 
 
-Multi-Class ROC Curve:
+AUC
 Uses label_binarize to handle multi-class ROC computation.
-Plots ROC curves and calculates AUC for each class.
-Displays an overall AUC score
+Displays an overall AUC score using roc_auc_score with multi_class
 
 MODEL 3- SVM
 Imported necessary libraries for the model.
@@ -97,8 +95,12 @@ Prints a classification report (precision, recall, F1-score).
 Displays a confusion matrix heatmap.
 
 
-Multi-Class ROC Curve:
+AUC
 Uses label_binarize to handle multi-class ROC computation.
-Plots ROC curves and calculates AUC for each class.
-Displays an overall AUC score
+Displays an overall AUC score using roc_auc_score with multi_class
 
+COMPARISON PLOTS 
+PLotted a bar chart to compare model accuracies.
+Plotted a bar charts for macro and weighted averged to comapre model precision,recall,and f1 score
+Plotted a line graph to show the ROC comparison.
+Plotted a bar chart for AUC comparison
